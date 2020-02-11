@@ -1,0 +1,9 @@
+apiVersion: skaffold/v2alpha3
+kind: Config
+build:
+  artifacts:
+  - image: boondongle
+deploy:
+  kubectl:
+    manifests:
+      - k8s-*
