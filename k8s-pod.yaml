@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: py-play
-    image: boondongle
+    image: boop
